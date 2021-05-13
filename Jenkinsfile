@@ -18,6 +18,7 @@ pipeline {
                
                 sh "pwd"
                 sh "ls -a"
+                sh "docker build -t my_first_image ."
             }
         }
 
